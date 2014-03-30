@@ -21,6 +21,13 @@
 		4AA3183818E750F1005EB67A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA3181A18E750F1005EB67A /* UIKit.framework */; };
 		4AA3184018E750F1005EB67A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AA3183E18E750F1005EB67A /* InfoPlist.strings */; };
 		4AA3184218E750F1005EB67A /* Extra_ManTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA3184118E750F1005EB67A /* Extra_ManTests.m */; };
+		4AA3184C18E75513005EB67A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA3184B18E75513005EB67A /* logo.png */; };
+		4AA3185B18E7A21A005EB67A /* basket.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA3185818E7A21A005EB67A /* basket.png */; };
+		4AA3185C18E7A21A005EB67A /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA3185918E7A21A005EB67A /* basketball.png */; };
+		4AA3185D18E7A21A005EB67A /* soccer.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA3185A18E7A21A005EB67A /* soccer.png */; };
+		4AA3186318E7A687005EB67A /* EventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA3186218E7A687005EB67A /* EventTableViewController.m */; };
+		4AA3186618E7A6A3005EB67A /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA3186518E7A6A3005EB67A /* EventTableViewCell.m */; };
+		4AA3186F18E7BD3F005EB67A /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA3186E18E7BD3F005EB67A /* EventDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,16 @@
 		4AA3183D18E750F1005EB67A /* Extra ManTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Extra ManTests-Info.plist"; sourceTree = "<group>"; };
 		4AA3183F18E750F1005EB67A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4AA3184118E750F1005EB67A /* Extra_ManTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Extra_ManTests.m; sourceTree = "<group>"; };
+		4AA3184B18E75513005EB67A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		4AA3185818E7A21A005EB67A /* basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basket.png; sourceTree = "<group>"; };
+		4AA3185918E7A21A005EB67A /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball.png; sourceTree = "<group>"; };
+		4AA3185A18E7A21A005EB67A /* soccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soccer.png; sourceTree = "<group>"; };
+		4AA3186118E7A687005EB67A /* EventTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventTableViewController.h; path = ../EventTableViewController.h; sourceTree = "<group>"; };
+		4AA3186218E7A687005EB67A /* EventTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventTableViewController.m; path = ../EventTableViewController.m; sourceTree = "<group>"; };
+		4AA3186418E7A6A3005EB67A /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventTableViewCell.h; path = ../EventTableViewCell.h; sourceTree = "<group>"; };
+		4AA3186518E7A6A3005EB67A /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventTableViewCell.m; path = ../EventTableViewCell.m; sourceTree = "<group>"; };
+		4AA3186D18E7BD3F005EB67A /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		4AA3186E18E7BD3F005EB67A /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +129,12 @@
 		4AA3181C18E750F1005EB67A /* Extra Man */ = {
 			isa = PBXGroup;
 			children = (
+				4AA3186D18E7BD3F005EB67A /* EventDetailViewController.h */,
+				4AA3186E18E7BD3F005EB67A /* EventDetailViewController.m */,
+				4AA3186118E7A687005EB67A /* EventTableViewController.h */,
+				4AA3186218E7A687005EB67A /* EventTableViewController.m */,
+				4AA3186418E7A6A3005EB67A /* EventTableViewCell.h */,
+				4AA3186518E7A6A3005EB67A /* EventTableViewCell.m */,
 				4AA3182518E750F1005EB67A /* EMAppDelegate.h */,
 				4AA3182618E750F1005EB67A /* EMAppDelegate.m */,
 				4AA3182818E750F1005EB67A /* Main.storyboard */,
@@ -126,6 +149,10 @@
 		4AA3181D18E750F1005EB67A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4AA3185818E7A21A005EB67A /* basket.png */,
+				4AA3185918E7A21A005EB67A /* basketball.png */,
+				4AA3185A18E7A21A005EB67A /* soccer.png */,
+				4AA3184B18E75513005EB67A /* logo.png */,
 				4AA3181E18E750F1005EB67A /* Extra Man-Info.plist */,
 				4AA3181F18E750F1005EB67A /* InfoPlist.strings */,
 				4AA3182218E750F1005EB67A /* main.m */,
@@ -229,8 +256,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA3184C18E75513005EB67A /* logo.png in Resources */,
 				4AA3182F18E750F1005EB67A /* Images.xcassets in Resources */,
 				4AA3182118E750F1005EB67A /* InfoPlist.strings in Resources */,
+				4AA3185B18E7A21A005EB67A /* basket.png in Resources */,
+				4AA3185C18E7A21A005EB67A /* basketball.png in Resources */,
+				4AA3185D18E7A21A005EB67A /* soccer.png in Resources */,
 				4AA3182A18E750F1005EB67A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,9 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA3186F18E7BD3F005EB67A /* EventDetailViewController.m in Sources */,
 				4AA3182D18E750F1005EB67A /* EMViewController.m in Sources */,
 				4AA3182718E750F1005EB67A /* EMAppDelegate.m in Sources */,
+				4AA3186318E7A687005EB67A /* EventTableViewController.m in Sources */,
 				4AA3182318E750F1005EB67A /* main.m in Sources */,
+				4AA3186618E7A6A3005EB67A /* EventTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +491,7 @@
 				4AA3184718E750F1005EB67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AA3184818E750F1005EB67A /* Build configuration list for PBXNativeTarget "Extra ManTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +500,7 @@
 				4AA3184A18E750F1005EB67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

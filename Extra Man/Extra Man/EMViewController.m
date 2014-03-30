@@ -9,7 +9,6 @@
 #import "EMViewController.h"
 
 @interface EMViewController ()
-
 @end
 
 @implementation EMViewController
