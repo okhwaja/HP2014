@@ -8,6 +8,7 @@
 
 #import "EventTableViewController.h"
 #import "EventTableViewCell.h"
+#import "EventDetailViewController.h"
 
 @interface EventTableViewController ()
 
@@ -35,6 +36,13 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     _events = @[@"Basketball at Dillon", @"Soccer on Poe"];
     _images = @[@"basketball.png", @"soccer.png"];
+    _sports = @[@"Basketball", @"Soccer"];
+    _location = @[@"Dillon Gym", @"Poe Field"];
+    _attending = @[[NSNumber numberWithInt:4], [NSNumber numberWithInt:5]];
+    _capacity = @[[NSNumber numberWithInt:6], [NSNumber numberWithInt:10]];
+//    _attending = @[@3, @5];
+  //  _capacity = @[@6, @10];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -110,15 +118,22 @@
 }
 */
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    if ([[segue identifier] isEqualToString:@"showEventDetails"]) {
+        EventDetailViewController *detailViewController = [segue destinationViewController];
+        
+        NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
+        
+        long row = [myIndexPath row];
+        detailViewController.eventDetails = @[_events[row], _sports[row], _location[row], _attending[row], _capacity[row]];
+        
+    }
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-*/
 
 @end

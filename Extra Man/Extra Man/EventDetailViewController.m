@@ -27,6 +27,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _titleLabel.text = [NSString stringWithFormat: @"Title: %@", _eventDetails[0]];
+    _sportLabel.text = [NSString stringWithFormat: @"Sport: %@", _eventDetails[1]];
+    _locationLabel.text = [NSString stringWithFormat: @"Location: %@", _eventDetails[2]];
+    _attendingLabel.text = [NSString stringWithFormat:@"Attending: %@", _eventDetails[3]];
+    _capacityLabel.text = [NSString stringWithFormat:@"Capacity: %@", _eventDetails[4]];
+    
 }
 
 - (void)didReceiveMemoryWarning
